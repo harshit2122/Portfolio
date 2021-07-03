@@ -1,0 +1,29 @@
+.line > hr{
+    margin-top:100px;
+}
+
+.leftSection{
+    margin-top: -70px;
+}
+.leftSection > img{
+    border-radius: 200px;
+    height: 300px;
+    margin: 40px 70px;
+}
+
+.left_text{
+    margin-left: 80px;
+    margin-top: -40px;
+}
+
+.left_icons{
+    margin-left: 80px;
+    margin-top: -10px;
+}
+
+.left_icons > h1{
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: -30px;
+    font-weight: 500;
+}

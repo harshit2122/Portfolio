@@ -1,0 +1,22 @@
+.navigation{
+    display:flex;
+    margin-left: 525px;
+    margin-top: -460px;
+}
+
+.navi_icon{
+    display: flex;
+    margin-left: 125px;
+}
+
+.navi_icon :hover{
+    color:grey;
+    cursor: pointer;
+}
+
+.navi_icon > h1{
+    font-size: 20px;
+    margin-top: -1px;
+    margin-left: 7px;;
+}
+
