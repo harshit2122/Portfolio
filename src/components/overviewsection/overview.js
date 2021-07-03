@@ -10,6 +10,8 @@ import js from './js.png';
 import react from './react.png';
 import terminal from './terminal.png';
 import microsoft from './microsoft.png';
+import linkedin from './linkedin.png';
+import instagram from './instagram.png';
 function overview() {
     return (
         <div className="overview">
@@ -28,6 +30,23 @@ function overview() {
             <img className ="skills" src={terminal} alt=""></img>
             <img className ="skills" src={microsoft} alt=""></img>
             <hr className="overview_line"/>
+
+            <div className="stats__box">
+                <div className="projects__completed">
+                    <h1>8</h1>
+                    <h2>Projects Completed</h2>
+                </div>
+                <hr className="stats__hr"/>
+                <div className="current__projects">
+                    <h1>3</h1>
+                    <h2>Current Projects</h2>
+                </div>
+            </div>
+            <div className="connect">
+                <h3>Connect with me!</h3>
+                <img className ="social" src={linkedin} alt=""></img>
+                <img className ="social" src={instagram} alt=""></img>
+            </div>
         </div>
     )
 }

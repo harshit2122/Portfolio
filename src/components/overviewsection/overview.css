@@ -5,9 +5,9 @@
 }
 
 .stats{
-    width:890px;
+    width:875px;
     height:275px;
-    background-color: #028191;
+    background-color: #3967a2;
     margin-left: 10px;
     margin-bottom: 10px;
     margin-top: -1rem;
@@ -52,5 +52,56 @@
 .overview_line{
     margin: 10px 10px;
     border: 2px;
-    fill: black;
+}
+
+.stats__box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 1px solid #3967a2;
+    width: 800px;
+    height: 200px;
+    background-color: #3967a2;
+    margin-left: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.stats__hr {
+    height: '50%';
+    width: 1;
+    color: white;
+}
+
+.projects__completed {
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+
+.current__projects {
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 120px;
+}
+
+.connect > h3{
+    font-style: bold;
+    margin-left: 13px;
+    margin-bottom: 10px;
+}
+
+.social{
+    height: 50px;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+.connect >img:hover {
+    cursor: pointer;
+    box-shadow: 0.5px 0.2px 0px 0px;
+    background-color: rgb(245, 238, 238);
 }
