@@ -1,5 +1,5 @@
 import React from 'react'
-import './leftSection.css'
+import './leftsection.css'
 import WhatsAppIcon from '@material-ui/icons/WhatsApp';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 

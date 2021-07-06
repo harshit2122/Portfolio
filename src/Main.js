@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/navbar';
-import LeftSection from './components/leftSection';
-import Navigation from './components/navigation';
+import Navbar from './components/navbarsection/navbar';
+import LeftSection from './components/leftsection/leftsection';
+import Navigation from './components/navigationsection/navigation';
 import Overview from './components/overviewsection/overview';
 import Project from './components/projectsection/project';
 import Experience from './components/experiencesection/experience';
