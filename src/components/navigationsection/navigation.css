@@ -1,7 +1,7 @@
 .navigation{
     display:flex;
     margin-left: 525px;
-    margin-top: -460px;
+    margin-top: -542px;
 }
 
 .navi_icon{
@@ -9,6 +9,7 @@
     margin-left: 125px;
     font-size: 20px;
     font-stretch: expanded;
+    margin-top: -5px;
 }
 
 .navi_icon :hover{
@@ -21,4 +22,5 @@
     margin-top: -1px;
     margin-left: 7px;;
 } */
+
 

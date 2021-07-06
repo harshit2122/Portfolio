@@ -6,13 +6,9 @@ import Navigation from './components/navigationsection/navigation';
 import Overview from './components/overviewsection/overview';
 import Project from './components/projectsection/project';
 import Experience from './components/experiencesection/experience';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
-function Mains() {
+import { BrowserRouter as Router, Switch, Route, } from "react-router-dom";
+
+function Main() {
   return (
     <Router>
      <Navbar />
@@ -27,4 +23,4 @@ function Mains() {
   );
 }
 
-export default Mains;
+export default Main;

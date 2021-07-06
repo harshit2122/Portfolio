@@ -1,17 +1,17 @@
 import React from 'react'
 import './overview.css';
-import image from './code.png'; 
-import github from './github.png';
-import git from './git.png';
-import c from './c.png';
-import cpp from './cpp.png';
-import java from './java.png';
-import js from './js.png';
-import react from './react.png';
-import terminal from './terminal.png';
-import microsoft from './microsoft.png';
-import linkedin from './linkedin.png';
-import instagram from './instagram.png';
+import image from './assets/code.png'; 
+import github from './assets/github.png';
+import git from './assets/git.png';
+import c from './assets/c.png';
+import cpp from './assets/cpp.png';
+import java from './assets/java.png';
+import js from './assets/js.png';
+import react from './assets/react.png';
+import terminal from './assets/terminal.png';
+import microsoft from './assets/microsoft.png';
+import linkedin from './assets/linkedin.png';
+import instagram from './assets/instagram.png';
 function overview() {
     return (
         <div className="overview">

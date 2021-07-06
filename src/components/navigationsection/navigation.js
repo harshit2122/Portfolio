@@ -1,13 +1,9 @@
 import React from 'react'
 import './navigation.css'
-import ImportContactsIcon from '@material-ui/icons/ImportContacts';
 import AssignmentIcon from '@material-ui/icons/Assignment';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import WorkIcon from '@material-ui/icons/Work';
+import AssignmentIndIcon from '@material-ui/icons/AssignmentInd';
+import { Link } from "react-router-dom";
 
 
 function navigation() {
@@ -15,13 +11,13 @@ function navigation() {
     return (
         <div className="navigation">
             <div className = "navi_icon">
-                <Link className=""to="/"><ImportContactsIcon /> Overview </Link>
+                <Link to="/"><AssignmentIndIcon /> Overview </Link>
             </div>
             <div className="navi_icon">
                 <Link to = "/projects"> <AssignmentIcon /> Projects </Link>
             </div>
             <div className ="navi_icon">
-                <Link to ="/experience"><ImportContactsIcon /> Experience </Link>
+                <Link to ="/experience"><WorkIcon /> Experience </Link>
             </div>
         </div>
     )
