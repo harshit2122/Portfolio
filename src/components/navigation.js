@@ -2,25 +2,26 @@ import React from 'react'
 import './navigaton.css'
 import ImportContactsIcon from '@material-ui/icons/ImportContacts';
 import AssignmentIcon from '@material-ui/icons/Assignment';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 
 function navigation() {
-    const navi = () =>{
-        alert('hello')
-    }
+   
     return (
         <div className="navigation">
-            <div className="navi_icon" onClick= {navi}>
-            <ImportContactsIcon />
-            <h1>Overview</h1>
+            <div className = "navi_icon">
+                <Link className=""to="/"><ImportContactsIcon /> Overview </Link>
             </div>
             <div className="navi_icon">
-            <AssignmentIcon />
-            <h1>Project</h1>
+                <Link to = "/projects"> <AssignmentIcon /> Projects </Link>
             </div>
-            <div className="navi_icon">
-            <ImportContactsIcon />
-            <h1>Overview</h1>
+            <div className ="navi_icon">
+                <Link to ="/experience"><ImportContactsIcon /> Experience </Link>
             </div>
         </div>
     )
